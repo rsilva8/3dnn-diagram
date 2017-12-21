@@ -23,7 +23,7 @@ if iscell(connection)
         new_center_out = centers{2} + [0,(cc_out-1)*(diam+off),0];
         new_centers = [new_center_in;new_center_out];
         
-        h = plot3(new_centers(:,1),new_centers(:,2),new_centers(:,3),'black',varargin{:});
+        h = plot3(new_centers(:,1),new_centers(:,2),new_centers(:,3),varargin{:},'Color',color(cc_out),'LineWidth',2);
         hold on
     end
 elseif strcmpi(connection,'fully_connected')
