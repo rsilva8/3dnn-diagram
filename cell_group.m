@@ -1,4 +1,4 @@
-function [ h ] = layer( source_num, layer_num, num_cells, varargin )
+function [ h ] = cell_group( source_num, layer_num, num_cells, varargin )
 %INPUT_LAYER Draw an input layer in 3D.
 %   source_num: data source number
 %   layer_num: layer number
